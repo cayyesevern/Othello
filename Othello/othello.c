@@ -309,6 +309,7 @@ void flip(char lip, char tip, int row, int col) {
 	}
 
 	//down
+
 	for (k = down - 1; k >= row + 1; k--) {
 		if (z4 != 0) {
 			board[k][col] = tip;
